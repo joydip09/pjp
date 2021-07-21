@@ -1,0 +1,110 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="css/pjp.css" >
+
+<!-- <style type="text/css"> 
+body {font-family:cursive;}
+h1#title {color:red;
+text-align:center;
+border-style:dashed;
+border-width:2px;
+border-color:red;
+animation-name:border;
+animation-duration:6s;
+animation-iteration-count:infinite;
+animation-timing-function:ease;}
+@keyframes border {
+20% {border-color:violet; border-width:3px;}
+40% {border-color:orange; border-width:4px;}
+60% {border-color:orange; border-width:4px;}
+80% {border-color:violet; border-width:3px;}
+100% {border-color:red; border-width:2px;}
+}
+img {height:430px;
+width:350px;}
+h1#form {color:white;
+background-color:black;}
+</style> -->
+
+<!-- <titlel> PJP </title> -->
+</head>
+
+<body>
+<script src="scripts/pjp.js"></script>
+
+<!-- <script type="text/javascript">
+function pics() {
+var pi=document.getElementById("pics")
+var po=document.getElementById("po")
+pi.style.display=""
+po.style.display="none"
+}
+var pic= new Array (
+"file:///sdcard/My/Pjp-web/images/Araf.jpg","https://imgur.com/a/Vh8XmbO","file:///sdcard/My/Pjp-web/images/Raktim.jpg","file:///sdcard/My/Pjp-web/images/Joydip.jpg"
+)
+var name= new Array (
+"Araf","Mosiur","Raktim","Joydip"
+)
+var num=0
+function prev() {
+var img = document.getElementById("img")
+num--
+if (num<0){
+num=0
+}
+img.src=pic[num]
+img.alt=name[num]
+}
+function next() {
+var img = document.getElementById("img")
+num++
+if (num>=pic.length){
+num=0
+}
+img.src=pic[num]
+img.alt=name[num]
+}
+</script> -->
+
+<h1 id="title"><span>PJP</span></h1>
+<p>Hey guys....</p>
+<div>
+PJP is a future political organisation. It was founded on 2019. It has 4 members:
+<ul>
+<li><b>Mohammad Araf Uddin Bin Sarwar</b></li>
+<li><b>Kazi Masiur Rahman</b></li>
+<li><b>Raktim Mondal</b></li>
+<li><b>Joydip Chowdhury</b></li>
+</ul>
+</div>
+
+<button onclick="pics()" id="po" style="display:;" > Pictures </button>
+<div style="display:none" id="pics"> <img src="images/Araf.jpg" alt="" id="img" >
+<button onclick="prev()"> Prev </button>
+<button onclick="next()"> Next </button>
+</div>
+
+<p> We live for Placid, we fight for Placid. Our organisation was named by our most precious member<b> Masiur </b> bhau. Our President is <b> Araf </b> bhau, Chief Secretary is <b> Masiur </b> bhau and our financial sacratiry is <b> Raktim </b> bhau. Me <b> Joydip </b> is just a rookie in this team.</p>
+<div> <h1 id="form" >Wanna be one of us ??</h1>
+
+<form action="file:///sdcard/My/Pjp-web/images/Joydip.jpg" method="post" autocomplete="off" >
+<label>Name:</label>
+<input type="text" name="name" required="required" id="name" > <br><br>
+<label>Mail:</label>
+<input type="email" name="email" placeholder="email@example.com" required="required" > <br><br>
+<label>Mobile:</label>
+<input type="tel" name="phone" > <br><br>
+<label> Gender: </label>
+<input type="checkbox" name="Male" > <label> Male </label> <input type="checkbox" name="Female" > <label> Female </label> <input type="checkbox" name="Other"  > <label> Better not tell </label> <br><br>
+<button type="button" onclick="alert('Submited')">Submit</button><br><br>
+</form> <br>
+
+<footer>
+<h2> Contact </h2>
+<h3>cjoydip29@gmail.com</h3></footer>
+</div>
+
+</body>
+
+</html>
