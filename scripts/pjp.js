@@ -4,9 +4,9 @@ var po=document.getElementById("po")
 pi.style.display=""
 po.style.display="none"
 }
-var pic= new Array (
+var pic= [
 "images/Araf.jpg","images/Mosiur.jpg","images/Raktim.jpg","images/Joydip.jpg"
-)
+]
 var name= [
 "Araf","Mosiur","Raktim","Joydip"
 ]
