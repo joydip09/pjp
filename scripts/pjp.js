@@ -18,7 +18,7 @@ if (num<0){
 num=0
 }
 img.src=pic[num]
-<!--img.alt=name[num]-->
+img.alt=name[num]
 }
 function next() {
 var img = document.getElementById("img")
@@ -27,5 +27,5 @@ if (num>=pic.length){
 num=0
 }
 img.src=pic[num]
-<!--img.alt=name[num]-->
+img.alt=name[num]
 }
