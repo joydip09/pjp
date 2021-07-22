@@ -7,9 +7,9 @@ po.style.display="none"
 var pic= new Array (
 "images/Araf.jpg","images/Mosiur.jpg","images/Raktim.jpg","images/Joydip.jpg"
 )
-var name= new Array (
+var name= [
 "Araf","Mosiur","Raktim","Joydip"
-)
+]
 var num=0
 function prev() {
 var img = document.getElementById("img")
