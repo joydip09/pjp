@@ -7,7 +7,7 @@ po.style.display="none"
 var pic= [
 "images/Araf.jpg","images/Mosiur.jpg","images/Raktim.jpg","images/Joydip.jpg"
 ]
-var name= [
+var nam= [
 "Araf","Mosiur","Raktim","Joydip"
 ]
 var num=0
@@ -18,7 +18,7 @@ if (num<0){
 num=0
 }
 img.src=pic[num]
-img.alt=name[num]
+img.title=nam[num]
 }
 function next() {
 var img = document.getElementById("img")
