@@ -19,6 +19,7 @@ num=0
 }
 img.src=pic[num]
 img.alt=nam[num]
+img.title=nam[num]
 }
 function next() {
 var img = document.getElementById("img")
