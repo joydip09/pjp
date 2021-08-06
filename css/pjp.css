@@ -6,6 +6,9 @@ box-sizing:border-box;
 body {
 font-family:cursive;
 }
+div#form {
+justify-content:center;
+}
 h1#title {
 color:red;
 text-align:center;
