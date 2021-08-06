@@ -1,5 +1,13 @@
-body {font-family:cursive;}
-h1#title {color:red;
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body {
+font-family:cursive;
+}
+h1#title {
+color:red;
 text-align:center;
 border-style:dashed;
 border-width:2px;
@@ -7,7 +15,8 @@ border-color:red;
 animation-name:border;
 animation-duration:6s;
 animation-iteration-count:infinite;
-animation-timing-function:ease;}
+animation-timing-function:ease;
+}
 @keyframes border {
 20% {border-color:violet; border-width:3px;}
 40% {border-color:orange; border-width:4px;}
@@ -15,7 +24,11 @@ animation-timing-function:ease;}
 80% {border-color:violet; border-width:3px;}
 100% {border-color:red; border-width:2px;}
 }
-img {height:430px;
-width:350px;}
-h1#form {color:white;
-background-color:black;}
+img {
+height:430px;
+width:350px;
+}
+h1#form {
+color:white;
+background-color:black;
+}
