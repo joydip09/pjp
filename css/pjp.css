@@ -7,7 +7,7 @@ body {
 font-family:cursive;
 }
 div#form {
-justify-content:center;
+text-align:center;
 }
 h1#title {
 color:red;
