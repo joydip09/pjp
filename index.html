@@ -1,0 +1,75 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="css/pjp.css" >
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<script type="text/javascript" src="scripts/pjp.js" ></script>
+
+<h1 id="title">PJP</h1>
+<p id="hey" >Hey guys....</p>
+<div>
+PJP is a future political organisation. It was founded on 2019. It has 4 members:
+<ul>
+<li><b>Mohammad Araf Uddin Bin Sarwar</b></li>
+<li><b>Kazi Masiur Rahman</b></li>
+<li><b>Raktim Mondal</b></li>
+<li><b>Joydip Chowdhury</b></li>
+</ul>
+</div>
+
+<button onclick="pics()" id="po" style="display:;" > Pictures </button>
+<div style="display:none" id="pics"> <img src="images/Araf.jpg" alt="" id="img" ><br>
+<button id="prev" onclick="prev()"> Prev </button>
+<button id="next" onclick="next()"> Next </button>
+</div>
+
+<p>
+We live for Placid, we fight for Placid. Our organisation was named by our most precious member<b> Masiur </b> bhau. Our President is <b> Araf </b> bhau, Chief Secretary is <b> Masiur </b> bhau and our financial sacratiry is <b> Raktim </b> bhau. Me <b> Joydip </b> is just a rookie in this team. We follow several <a href="rules.html">rules</a> here.
+</p>
+<div> <h1 id="form" >Wanna be one of us ??</h1> </div><br>
+
+ <section>
+ <div class="container">
+ <form action="https://formspree.io/f/xbjqzqev" method="POST" id="my-form">
+ 
+ <div class="form-group">
+ <label for="name">Name </label>
+ <input type="text" id="name" name="name">
+ </div> <br>
+ 
+ <div class="form-group">
+ <label for="email">Email </label>
+ <input type="email" id="email" name="email" placeholder="example@host.com">
+ </div> <br>
+ 
+ <div class="form-group">
+ <label for="mbl">Mobile </label>
+ <input type="tel" id="mbl" name="mbl">
+ </div> <br>
+ 
+ <div class="form-group">
+ <label for="gender">Gender </label>
+ <input type="text" name="gender" id="gender" >
+ </div> <br>
+ 
+ <div class="form-group">
+ <label for="sgstn">Suggestion </label>
+ <textarea name="sgst" id="sgstn" cols="30" rows="5" placeholder="Suggestion for improvement" ></textarea>
+ </div> <br><br>
+ 
+ <button type="submit" id="sub" onclick="">Submit</button>
+ <a href="index.html" style="display:none;" id="mgk"> Submit another request</a>
+ </form>
+ </div>
+ <div id="status"></div>
+ <h2> Contact </h2>
+ <h3>cjoydip29@gmail.com</h3>
+ </section>
+
+</body>
+
+</html>
