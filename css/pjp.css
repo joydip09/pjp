@@ -6,7 +6,7 @@
 body {
         background-color: aliceblue;
 	font-size:20px;
-	font-family:cursive;
+	font-family: monospace;
 }
 h1#title {
 	color:red;
