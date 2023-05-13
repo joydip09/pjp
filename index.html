@@ -1,0 +1,86 @@
+<html>
+<!-- new -->
+<head>
+<link rel="stylesheet" href="css/pjp.css" >
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Join our group to improve your political knowledge">
+</head>
+
+<body id="body" style="bgcolor:">
+	<canvas id="canvas"></canvas>			
+<h1 id="title">PJP</h1>
+<p id="hey" >Hey guys....</p>
+<div>
+PJP is a future political organisation. It was founded on May,2019. It has 4 members:
+<ul>
+<li><b>Mohammad Araf Uddin Bin Sarwar</b></li>
+<li><b>Kazi Masiur Rahman</b></li>
+<li><b>Raktim Mondal</b></li>
+<li><b>Joydip Chowdhury</b></li>
+</ul>
+</div>
+
+<button onclick="pics()" id="po" style="display:;" > Pictures </button>
+<div style="display:none" id="pics"> <img src="images/Araf.jpg" alt="" id="img" ><br>
+<button id="prev" onclick="prev()"> Prev </button>
+<button id="next" onclick="next()"> Next </button>
+</div>
+
+<p>
+We live for Placid, we fight for Placid. Our organisation was named by our most precious member<b> Masiur </b> bhau. Our President is <b> Araf </b> bhau, Chief Secretary is <b> Masiur </b> bhau and our financial sacratiry is <b> Raktim </b> bhau. Me <b> Joydip </b> is just a rookie in this team. We follow several <a href="/pages/rules.html">rules</a> here.
+</p>
+<div style="display:none;" id="wanna"> <h1 id="form" >Wanna be one of us ??</h1> </div><br>
+
+ <section>
+ <div class="container" style="display:none;" id="container">
+ <form action="https://formspree.io/f/xbjqzqev" method="POST" id="my-form">
+ 
+ <div class="form-group">
+ <label for="name">Name </label>
+ <input type="text" id="name" name="Name">
+ </div> <br>
+ 
+ <div class="form-group">
+ <label for="email">Email </label>
+ <input type="email" id="email" name="Email" placeholder="example@host.com">
+ </div> <br>
+ 
+ <div class="form-group">
+ <label for="mbl">Mobile </label>
+ <input type="tel" id="mbl" name="Mobile">
+ </div> <br>
+ 
+ <div class="form-group">
+ <label for="gender">Gender </label>
+ 
+ <select id="gender" name="Gender">
+ 				<option>Male</option>
+ 				<option>Female</option>
+ 				<option>Don't want to disclose</option>
+ </select>
+ </div> <br>
+ 
+ <div class="form-group">
+ <label for="sgstn">Suggestion </label>
+ <textarea name="Suggestions" id="sgstn" cols="30" rows="5" placeholder="Suggestion for improvement" ></textarea>
+ </div> <br><br>
+ 
+ <button type="submit" id="sub" onclick="">Send</button>
+ <input type="reset" value="Reset" id="reset">
+ <a href="index.html" style="display:none;" id="mgk"> Submit another request</a>
+ </form>
+ </div>
+ <button onclick="menu()" id="bar" >=</button>
+ <div id="list" style="display:none;">
+ 				<button onclick="con()" id="con" style="display: ">Join PJP</button><br><br>
+ 				<button id="son">Send Message</button><br><br>
+ 				<button onclick="hide()" id="cros">×</button>
+ </div>
+ <h2> Contact </h2>
+ <h3>cjoydip29@gmail.com</h3>
+ </section>
+ 
+ <script type="text/javascript" src="scripts/pjp.js" ></script>
+</body>
+</html>
