@@ -1,0 +1,29 @@
+h1#tit {color:#ff0000;
+text-align:center;
+border-style:dashed;
+border-width:2px;
+border-color:red;
+animation-name:border,color;
+animation-duration:6s;
+animation-iteration-count:infinite;
+animation-timing-function:ease;}
+
+@keyframes border {
+20% {border-color:#ff1a1a; border-width:3px;}
+40% {border-color:#ff6600; border-width:4px;}
+60% {border-color:#ff5050; border-width:4px;}
+80% {border-color:#ff6600; border-width:3px;}
+100% {border-color:#ff0000; border-width:2px;}
+}
+
+@keyframes color {
+20% {color:#ff1a1a;}
+40% {color:#ff6600;}
+60% {color:#ff5050;}
+80% {color:#ff6600;}
+100% {color:#ff0000;}
+}
+
+ol {
+  list-style: ;
+}
